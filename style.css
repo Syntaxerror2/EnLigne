@@ -2,6 +2,7 @@
 
 @media all and (max-width: 992px) {
     /* smartphone */
+    
     .container1 {
         display: flex;
         flex-direction: column;
@@ -11,10 +12,18 @@
     
     
     }
+    .btn2 {
+        visibility:visible;
+    }
     .container3 {
         
         flex-direction: column;
+        
     }
+    #Activites {
+        margin-left: 45px;
+    }
+   
     footer {
         flex-direction: column;
     }
@@ -29,7 +38,14 @@
     }
     .linky {
         font-size: 30px;
+       
     }
+    .linky:hover {
+        color: #0065FC;
+        text-decoration: none;
+        padding-top: 30px;
+    }
+    
     .illustrations2 {
         width: 200px;
         height: 120px;
@@ -79,7 +95,9 @@
     }
     #note {
         margin-top: 0px;
+       
     }
+    
  
     
     }
@@ -91,6 +109,13 @@
 @font-face {
     font-family: 'Raleway';
     src : url('Raleway-VariableFont_wght.ttf')
+}
+
+
+
+
+#Pomegue {
+   
 }
 
 .popy {
@@ -156,6 +181,11 @@ body {
   
    
 }
+#child {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
 
 header {
     display: flex;
@@ -176,6 +206,7 @@ nav {
     font-size: 20px;
     margin-top: 30px;
     font-weight: bold;
+
 }
 .test {
     display: flex;
@@ -233,7 +264,9 @@ a:link {
     text-decoration: none;
   
   }
-
+.btn2 {
+    visibility: hidden;
+}
 
 
 
@@ -335,8 +368,13 @@ a:link {
     height: 10px;
     margin-right: 10px;
     border-width: thin;
+    color: #0065FC;
 }
-
+#note {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
 
 .container {
     display: flex;
@@ -389,11 +427,14 @@ a:link {
     border-radius: 15px; 
         
 }
-
+.linky {
+    color: rgb(163, 163, 163);
+}
 
 .linky:hover {
     color: #0065FC;
-    text-decoration: overline;
+    border-top: solid;
+    padding-top: 30px;
 }
 
 #Marseilles {
@@ -406,7 +447,10 @@ footer {
     justify-content: space-between;
     background-color: #F2F2F2;
     margin-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
     padding-top: 10px;
+}
+#unchecked, #unchecked2, #unchecked3, #unchecked4, #unchecked5, #unchecked6, #unchecked7 {
+    color: #F2F2F2;
 }
