@@ -32,6 +32,7 @@
     }
     .filters {
         flex-direction: column;
+      
     }
     header {
         flex-direction: column;
@@ -97,9 +98,10 @@
         margin-top: 0px;
        
     }
-    
- 
-    
+    #strong {
+        margin-left: 20px;
+    }
+  
     }
 
 
@@ -119,6 +121,9 @@
 }
 
 .popy {
+    display: flex;
+}
+.filters {
     display: flex;
 }
 
@@ -148,27 +153,34 @@ border-top-right-radius: 10px;
 border-bottom-right-radius: 10px;
 color: white;
 margin: -5px;
-padding: 8px;
+padding: 11.5px;
 background-color: #0065FC;
 border: 0px;
 
 }
 #placeholder {
-    padding: 7px;
-    font-style: bold;
-    border: 1px solid;
+    padding: 11px;
+    border: 1px solid #F2F2F2;
     margin-left: -8px;
-    
 
 }
+::placeholder {
+   
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+  }
+
+
 #icon {
 background-color: #F2F2F2;
-padding: 7px;
+padding-top: 10px;
+padding-bottom: 10.5px;
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
 margin-right: -8px;
-padding-right: 20px;
-padding-left: 10px;
+padding-right: 28px;
+padding-left: 18px;
 height: 18px;
 
 }
@@ -197,8 +209,11 @@ nav {
 }
 
 #Booki {
-    height: 100px;
-    width: 180px;
+    height: 80px;
+    width: 140px;
+}
+#title {
+    font-size: 20px;
 }
 
 .p1 {
@@ -220,20 +235,27 @@ h3 {
     font-weight: bold;
     margin-top: 30px;
     padding: 0px; 
+    margin-left: 20px;
+    
+    
 
+}
+.b {
+    text-decoration: none;
+    color: black;
 }
 .i {
     border-right: solid;
     border-top: solid;
     border-bottom: solid;
-    border-width: 2.5px;
+    border-width: 2px;
     border-left: 0px;
-    border-color: #F2F2F2;
+    border-color: #bbdefb;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     padding: 4px;
-    margin-left: -11px;
-    padding-left: 18px;
+    margin-left: -16px;
+    padding-left: 22px;
     padding-right: 15px;
 }
 
@@ -243,13 +265,13 @@ h3 {
     border-color: #bbdefb;
     
 }
-.filters {
-    display: flex;
-    justify-content: space-between;
-    margin-left: -10px;
-    
- 
+
+
+#placement {
+   margin-top: 30px;
 }
+
+
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
     color: #0065FC;
     padding: 2px;
@@ -361,13 +383,13 @@ a:link {
 }
 
 #icon2 {
-    border: solid;
+    border: solid #F2F2F2;
     border-radius: 50%;
-    padding: 8px;
+    padding: 10px;
     width: 10px;
     height: 10px;
     margin-right: 10px;
-    border-width: thin;
+    border-width: medium;
     color: #0065FC;
 }
 #note {
