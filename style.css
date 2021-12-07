@@ -9,8 +9,8 @@
         flex-wrap: wrap; 
         margin: auto;
         align-items: center;
-        padding-right: 70px;
-        padding-left: 70px;
+        padding-right: 28px;
+        padding-left: 55px;
         
     }
     .btn2 {
@@ -23,6 +23,7 @@
         justify-content: center;
         
     }
+    
     
    
     footer {
@@ -76,14 +77,17 @@
         max-width: 400px;
     }
     .vignettes {
-        max-width: 250px;
+        max-width: 350px;
+        width: 280px;
     
     }
     .illustrations {
-        max-width: 250px;
-        min-width: 250px;
+        max-width: 310px;
+        min-width: 280px;
+        width: 310px;
         height: 130px;
     }
+   
     
     #populaires, #Hebergements {
         max-width: 400px;
@@ -92,19 +96,31 @@
         
     }
     .illustrations2 {
-        max-width: 250px;
-        min-width: 250px;
-        max-height: 120px;
-        min-height: 120px;
+        max-width: 270px;
+        min-width: 270px;
+        max-height: 180px;
+        min-height: 180px;
         width: 200px;
         height: 120px;
         border-radius: 15px;
     }
     .vignettes3, .vignettes4 {
-        max-width: 250px;
-        min-width: 250px;
+        max-width: 270px;
+        min-width: 270px;
         margin-top: 20px;
+        
     }
+    .illustrations4 {
+        max-width: 270px;
+        min-width: 270px;
+        width: 310px;
+        height: 130px;
+        max-height: 180px;
+        min-height: 180px;
+    }
+
+
+
     #Hebergements {
         max-height: 1700px;
         
@@ -121,7 +137,24 @@
         align-items: center;
         justify-content: center;
     }
-  
+   
+    .center {
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+      }
+    .center1 {
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+    }
+    .center2 {
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+        margin-top: -50px;
+    }
+    
   
 }
    
@@ -138,7 +171,9 @@
 }
 
 
-
+#retest {
+    display: inline-flex;
+}
 
 
 .popy {
@@ -321,6 +356,7 @@ a:link {
 
 #Pomegue {
     height: 160px;
+ 
     
     
 }
@@ -360,6 +396,15 @@ a:link {
    border-bottom-right-radius: 0px;
    padding: 4px;
 }
+.illustrations4 {
+    width: 210px;
+    height: 125px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+     
+ }
 
 .newdisplay {
     display: flex;
